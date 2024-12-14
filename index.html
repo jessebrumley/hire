@@ -68,9 +68,9 @@
           <h3 class="text-lg font-bold text-blue-700">Customer Service Representative</h3>
           <p class="text-md font-semibold">U.S. Cellular | January 2018 to October 2022</p>
           <ul class="pl-6 list-disc">
-          <li>Responsible for customer interaction with the highest standard of professionalism and courtesy</li>
-          <li>Received inbound calls, processed payments, and provided technical support assistance</li>
-          <li>Maintained strong knowledge of all company products and services</li>
+          <li>Delivered exceptional customer service, managing an average of 60+ inbound calls per shift, resolving customer inquiries and concerns with a 95% customer satisfaction rate</li>
+          <li>Processed $1,000+ in payments daily, ensuring accuracy and compliance with company policies</li>
+          <li>Provided technical support to resolve over 85% of issues during the first call, reducing the need for escalations</li>
           </ul>
         </div>
 
@@ -78,14 +78,19 @@
           <h3 class="text-lg font-bold text-blue-700">Security Officer</h3>
           <p class="text-md font-semibold">G4S Security | Jan 2017 to Jan 2018</p>
           <ul class="pl-6 list-disc">
-          <li>Watched for irregular or unusual conditions that may create security concerns or safety hazards</li>
-          <li>Investigated and prepare reports on accidents, incidents, and suspicious activities</li>
-          <li>Provided assistance to those in need in a courteous and professional manner</li>
+          <li>Monitored and patrolled 2.2 million sq. ft. facility, identifying and mitigating security risks</li>
+          <li>Conducted regular inspections to detect and report leaks and vulnerabilities, preventing thousands of dollars in potential damage per season, protecting high-value assets</li>
+          <li>Assisted 50+ employees and visitors monthly with security concerns in a professional and courteous manner</li>
           </ul>
         </div>
         <div class="mt-6 text-center">
-            <a href="Brumley,JesseResume.pdf" download class="bg-blue-700 text-white px-6 py-2 rounded-full inline-block">Download Resume</a>
-          </div>
+            <button 
+            onclick="toggleModal(true)" 
+            class="bg-blue-700 text-white px-6 py-2 rounded-full inline-block">
+            View Resume
+          </button>
+        </div>
+          
       </div>
     </div>
   </section>
@@ -179,12 +184,45 @@
 </section>
 
   
-  <!-- Footer -->
-  <footer class="bg-blue-700 text-white py-4">
-    <div class="container mx-auto text-center">
-      <p>2024 Jesse Brumley</p>
+<!-- Footer -->
+<footer class="bg-blue-700 text-white py-4">
+  <div class="container mx-auto text-center">
+    <p>2024 Jesse Brumley</p>
+  </div>
+</footer>
+
+<!-- Embeded Resume Section -->
+
+<div id="resume-modal" class="hidden fixed inset-0 bg-gray-800 bg-opacity-75 flex items-center justify-center z-50">
+  <div class="bg-white w-11/12 md:w-3/4 lg:w-1/2 rounded-lg shadow-lg overflow-hidden relative">
+    <button 
+      onclick="toggleModal(false)" 
+      class="absolute top-3 right-3 text-gray-500 hover:text-gray-800 text-xl font-bold">
+      ✖
+    </button>
+    <iframe 
+      src="Brumley,JesseResume.pdf" 
+      class="w-full h-[75vh] border-0">
+    </iframe>
+    <div class="p-4 text-center">
+      <a href="Brumley,JesseResume.pdf" download 
+         class="bg-blue-700 text-white px-6 py-2 rounded-full inline-block">
+        Download Resume
+      </a>
     </div>
-  </footer>
+  </div>
+</div>
+
+<script>
+  function toggleModal(show) {
+    const modal = document.getElementById('resume-modal');
+    if (show) {
+      modal.classList.remove('hidden');
+    } else {
+      modal.classList.add('hidden');
+    }
+  }
+</script>
 
 </body>
 </html>
