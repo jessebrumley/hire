@@ -1,3 +1,5 @@
+import portrait from '../assets/BrumleyJesse.jpg';
+
 export default function About() {
     return (
         <section className="bg-white py-10">
@@ -13,7 +15,7 @@ export default function About() {
                 {/* Image Section */}
                 <div className="flex-1 max-w-[200px] md:max-w-[250px]">
                     <img
-                        src="/src/assets/BrumleyJesse.jpg"
+                        src={portrait}
                         alt="Jesse Brumley"
                         className="rounded-xl shadow-md w-full h-auto object-cover"
                     />
