@@ -13,7 +13,7 @@ export default function About() {
                 {/* Image Section */}
                 <div className="flex-1 max-w-[200px] md:max-w-[250px]">
                     <img
-                        src="/BrumleyJesse.jpg"
+                        src="/src/assets/BrumleyJesse.jpg"
                         alt="Jesse Brumley"
                         className="rounded-xl shadow-md w-full h-auto object-cover"
                     />
