@@ -27,12 +27,12 @@ export default function ResumeModal() {
                             &times;
                         </button>
                         <iframe
-                            src="/src/assets/Brumley,JesseResume.pdf"
+                            src="../assets/Brumley,JesseResume.pdf"
                             title="Resume Preview"
                             className="w-full h-[500px] mb-4 border"
                         />
                         <a
-                            href="/src/assets/Brumley,JesseResume.pdf"
+                            href="../assets/Brumley,JesseResume.pdf"
                             download
                             className="bg-blue-600 text-white px-4 py-2 rounded  hover:bg-blue-800 transition"
                         >
