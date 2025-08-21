@@ -6,6 +6,24 @@ export default function Projects() {
             <div className="max-w-4xl mx-auto bg-white border shadow-md rounded-2xl p-6 text-black">
                 <h2 className="text-2xl font-bold mb-4">Projects</h2>
 
+                {/* Visitor Check-In App */}
+                <div className="mb-6">
+                    <h3 className="text-lg font-semibold">Visitor Check-In – Full-Stack Developer & Technical Lead</h3>
+                    <p className="text-sm text-gray-600 mb-1">July 2025</p>
+                    <a href="https://github.com/jessebrumley/visitor-check-in" className="text-blue-600 underline" target="_blank">
+                        GitHub Repository
+                    </a>
+                    {' | '}
+                    <a href="https://atlas-check-in.netlify.app/" className="text-blue-600 underline" target="_blank">
+                        Live Site
+                    </a>
+                    <ul className="list-disc list-inside mt-2 space-y-1">
+                        <li>Designed and implemented a secure digital check-in system to replace paper logs, including visitor registration, badge assignment, and CSV export features.</li>
+                        <li>Built and integrated backend with Supabase (Postgres, Row-Level Security, authentication) and front end with React, TypeScript, Tailwind, and Vite.</li>
+                        <li>Led a 4-person team, coordinating development, UI/UX design, testing, and documentation.</li>
+                    </ul>
+                </div>
+
                 {/* Atlas Music Player */}
                 <div className="mb-6">
                     <h3 className="text-lg font-semibold">Atlas Music Player – React Developer</h3>
