@@ -15,11 +15,30 @@ export default function Experience() {
                     <p>Supported customers with billing, troubleshooting, and device issues in a fast-paced environment. Built a reputation for clarity, patience, and problem-solving under pressure.</p>
                 </div>
 
-                <div>
+                <div className="mb-4">
                     <h3 className="text-lg font-semibold">Security Officer</h3>
                     <p className="text-sm italic">G4S Security | Tulsa, OK | Jan 2017 – Jan 2018</p>
                     <p>Monitored premises, handled incident reports, and maintained detailed communication logs. Demonstrated responsibility, attention to detail, and clear reporting.</p>
                 </div>
+
+                <div className="mb-6">
+                    <h3 className="text-lg font-semibold">
+                        Earlier Experience
+                    </h3>
+
+                    <p className="text-sm italic mb-2">
+                        July 2005 – January 2017
+                    </p>
+
+                    <ul className="list-disc ml-6">
+                        <li>Dish Network – Technical Support</li>
+                        <li>West Corporation – Customer Support</li>
+                        <li>Kohl’s – Customer Service & Sales Associate</li>
+                        <li>Walgreens – Customer Service & Sales Associate</li>
+                        <li>Alorica – Customer Service Representative</li>
+                    </ul>
+                </div>
+
                 <ResumeModal />
             </div>
         </section>
