@@ -5,13 +5,40 @@ export default function Skills() {
                 <h2 className="text-2xl font-bold mb-4">Skills</h2>
 
                 <ul className="space-y-2 list-disc list-inside pl-2">
-                    <li><span className="font-semibold">Languages:</span> Python, JavaScript, C, C++</li>
-                    <li><span className="font-semibold">Frontend:</span> HTML, CSS, React, Tailwind CSS, Bootstrap</li>
-                    <li><span className="font-semibold">Backend:</span> Node.js, Express.js, REST APIs</li>
-                    <li><span className="font-semibold">Testing & CI:</span> Vitest, React Testing Library, GitHub Actions</li>
-                    <li><span className="font-semibold">Deployment & Tooling:</span> Netlify, Vite, NPM, Git</li>
-                    <li><span className="font-semibold">Databases & Data:</span> MongoDB, JSON</li>
-                    <li><span className="font-semibold">Other Tools:</span> Postman, VS Code, Linux Shell, PowerShell</li>
+                    <li>
+                        <span className="font-semibold">Languages:</span>{" "}
+                        JavaScript, TypeScript, Python, C, C++
+                    </li>
+
+                    <li>
+                        <span className="font-semibold">Frontend:</span>{" "}
+                        React, HTML, CSS, Tailwind CSS, Bootstrap, Responsive Design
+                    </li>
+
+                    <li>
+                        <span className="font-semibold">Backend:</span>{" "}
+                        Node.js, Express.js, REST APIs, API Integration, Authentication
+                    </li>
+
+                    <li>
+                        <span className="font-semibold">Testing:</span>{" "}
+                        Vitest, React Testing Library, GitHub Actions, Unit Testing
+                    </li>
+
+                    <li>
+                        <span className="font-semibold">Development & Deployment:</span>{" "}
+                        Netlify, Vite, NPM, Git, GitHub, Redmine, Trello
+                    </li>
+
+                    <li>
+                        <span className="font-semibold">Databases & Data:</span>{" "}
+                        PostgreSQL, SQL, MongoDB, JSON
+                    </li>
+
+                    <li>
+                        <span className="font-semibold">Other Tools:</span>{" "}
+                        React Native, Android Studio, Postman, VS Code, Linux Shell, PowerShell
+                    </li>
                 </ul>
             </div>
         </section>

@@ -22,9 +22,14 @@ export default function Education() {
 
 
                 <ul className="list-disc list-inside mt-2 text-black">
-                    <li>Specialized in Full-stack Web Development and Computer Science</li>
-                    <li>Studied computer programming languages with a focus on web development in a peer-learning environment</li>
-                    <li>Attended full-time while learning new concepts at a rapid pace</li>
+                    <li>Completed a full-time immersive program covering computer science fundamentals and modern web development</li>
+                    <li>Built full-stack applications using JavaScript, TypeScript, Python, React, Node.js, and SQL databases</li>
+                    <li>Designed and implemented relational database schemas and REST APIs</li>
+                    <li>Developed and deployed real-world applications using modern development tools and workflows</li>
+                    <li>Worked on collaborative team projects using Git-based version control and task management tools</li>
+                    <li>Implemented authentication and secure data handling practices</li>
+                    <li>Wrote automated tests using modern JavaScript testing frameworks</li>
+                    <li>Practiced agile-style development including feature planning and iterative releases</li>
                 </ul>
             </div>
         </section>

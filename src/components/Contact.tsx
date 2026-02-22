@@ -5,7 +5,7 @@ export default function Contact() {
                 <h2 className="text-2xl font-bold mb-4">Contact</h2>
 
                 <p className="mb-6 text-start text-black">
-                    If you'd like to get in touch, feel free to reach out via email, LinkedIn, or GitHub!
+                    If you'd like to get in touch, feel free to reach out via phone, email, or LinkedIn!
                 </p>
 
                 <div className="flex flex-wrap justify-start gap-4">
@@ -30,6 +30,12 @@ export default function Contact() {
                         className="bg-blue-600 text-white font-semibold py-2 px-4 rounded hover:bg-blue-700 transition"
                     >
                         LinkedIn
+                    </a>
+                    <a
+                        href="tel:+19186954716"
+                        className="bg-blue-600 text-white font-semibold py-2 px-4 rounded hover:bg-blue-700 transition"
+                    >
+                        Call (918) 695-4716
                     </a>
                 </div>
             </div>
