@@ -18,7 +18,7 @@ export default function ResumeModal() {
             </div>
 
             {isOpen && (
-                <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-start items-center z-50">
+                <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50">
                     <div className="bg-white max-w-3xl w-full p-6 rounded-lg shadow-lg relative">
                         <button
                             onClick={toggleModal}
@@ -27,12 +27,12 @@ export default function ResumeModal() {
                             &times;
                         </button>
                         <iframe
-                            src="/Brumley,JesseResume.pdf"
+                            src="/Jesse_Brumley_Resume.pdf"
                             title="Resume Preview"
                             className="w-full h-[500px] mb-4 border"
                         />
                         <a
-                            href="/Brumley,JesseResume.pdf"
+                            href="/Jesse_Brumley_Resume.pdf"
                             download
                             className="bg-blue-600 text-white px-4 py-2 rounded  hover:bg-blue-800 transition"
                         >
