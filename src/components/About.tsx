@@ -8,7 +8,7 @@ export default function About() {
                 <div className="flex-1">
                     <h2 className="text-2xl font-bold mb-4">About Me</h2>
                     <p>
-                        Full-stack web developer with a background in customer service and 18+ years of professional communication and problem-solving experience. Experienced building user-focused applications using JavaScript, TypeScript, React, APIs, and relational databases, including deploying production-ready applications. Known for writing clean, functional code, learning quickly, and contributing effectively to collaborative team projects.
+                        Full-stack web developer with a background in customer service and 10+ years of professional communication and problem-solving experience. Experienced building user-focused applications using JavaScript, TypeScript, React, APIs, and relational databases, including deploying production-ready applications. Known for writing clean, functional code, learning quickly, and contributing effectively to collaborative team projects.
                     </p>
                 </div>
 

@@ -73,20 +73,6 @@ export default function Projects() {
                         <li>Collaborated in a team of three, managing version control, feature development, and deployment via GitHub</li>
                     </ul>
                 </div>
-
-                {/* AirBnB Clone */}
-                <div>
-                    <h3 className="text-lg font-semibold">AirBnB Clone – Lead Developer</h3>
-                    <p className="text-sm text-gray-600 mb-1">April 2024</p>
-                    <a href="https://github.com/jessebrumley/atlas-AirBnB_clone_v4" className="text-blue-600 underline" target="_blank">
-                        GitHub Repository
-                    </a>
-                    <ul className="list-disc list-inside mt-2 space-y-1">
-                        <li>Recreated the AirBnB platform with full front-end, back-end, database, and scripting functionality</li>
-                        <li>Designed a custom command-line interpreter to create, update, query, and manage persistent data models</li>
-                        <li>Engineered a file-based storage system using JSON serialization to simulate backend database behavior</li>
-                    </ul>
-                </div>
             </div>
         </section>
     );
