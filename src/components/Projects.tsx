@@ -25,7 +25,7 @@ export default function Projects() {
             className="text-blue-600 underline"
             target="_blank"
           >
-            Live Site
+            Demo
           </a>
           <ul className="list-disc list-inside mt-2 space-y-1">
             <li>
@@ -64,7 +64,7 @@ export default function Projects() {
             className="text-blue-600 underline"
             target="_blank"
           >
-            Live Site
+            Demo
           </a>
           <ul className="list-disc list-inside mt-2 space-y-1">
             <li>
@@ -115,7 +115,7 @@ export default function Projects() {
             className="text-blue-600 underline"
             target="_blank"
           >
-            Live Site
+            Demo
           </a>
           <ul className="list-disc list-inside mt-2 space-y-1">
             <li>
