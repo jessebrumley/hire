@@ -61,68 +61,6 @@ export default function Experience() {
             </li>
           </ul>
         </div>
-
-        <div className="mb-8">
-          <h3 className="text-lg font-semibold">Security Officer</h3>
-
-          <p className="text-sm italic mb-3">
-            G4S Security | Tulsa, OK | Jan 2017 — Jan 2018
-          </p>
-
-          <ul className="list-disc ml-6 space-y-2">
-            <li>
-              Conducted facility monitoring and routine patrols to ensure safety
-              and compliance with established procedures.
-            </li>
-            <li>
-              Documented incidents and maintained detailed logs using reporting
-              systems with strong attention to accuracy.
-            </li>
-            <li>
-              Responded to incidents and escalations using structured procedures
-              and sound judgment under pressure.
-            </li>
-            <li>
-              Communicated effectively with staff, visitors, and emergency
-              personnel during routine operations and incidents.
-            </li>
-            <li>
-              Demonstrated reliability, situational awareness, and independent
-              decision-making in a high-responsibility role.
-            </li>
-          </ul>
-        </div>
-
-        <div className="mb-8">
-          <h3 className="text-lg font-semibold">
-            Customer Service & Support Roles
-          </h3>
-
-          <p className="text-sm italic mb-3">
-            Alorica | Dish Network | West Corporation | Tulsa, OK
-          </p>
-
-          <ul className="list-disc ml-6 space-y-2">
-            <li>
-              Provided customer support across telecom, retail, and service
-              environments, handling billing, account issues, and general
-              inquiries.
-            </li>
-            <li>
-              Used internal software systems and ticketing tools to document
-              interactions and resolve customer concerns.
-            </li>
-            <li>
-              Troubleshot service issues and followed structured procedures to
-              ensure consistent resolution.
-            </li>
-            <li>
-              Maintained high levels of communication quality, professionalism,
-              and customer satisfaction.
-            </li>
-          </ul>
-        </div>
-
         <ResumeModal />
       </div>
     </section>
