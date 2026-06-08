@@ -15,8 +15,8 @@ export default function Experience() {
 
           <ul className="list-disc ml-6 space-y-2">
             <li>
-              Assisted customers with purchases, product inquiries, and
-              general store support in a fast-paced retail environment.
+              Assisted customers with purchases, product inquiries, and general
+              store support in a fast-paced retail environment.
             </li>
             <li>
               Processed cash, credit, and electronic transactions accurately
