@@ -11,7 +11,7 @@ export default function Experience() {
             Cashier / Customer Service Associate
           </h3>
 
-          <p className="text-sm italic mb-3">Lowe's | May 2026 — Present</p>
+          <p className="text-sm italic mb-3">Lowe's Home Improvement | May 2026 — Present</p>
 
           <ul className="list-disc ml-6 space-y-2">
             <li>
