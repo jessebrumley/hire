@@ -27,17 +27,17 @@ export default function Skills() {
 
           <li>
             <span className="font-semibold">Development & Deployment:</span>{" "}
-            Netlify, Vite, NPM, Git, GitHub, Redmine, Trello
+            Netlify, Vite, NPM, GitHub, Redmine, Trello
           </li>
 
           <li>
             <span className="font-semibold">Databases & Data:</span> PostgreSQL,
-            SQL, MongoDB, JSON
+            SQL, MongoDB
           </li>
 
           <li>
             <span className="font-semibold">Other Tools:</span> React Native,
-            Android Studio, Postman, VS Code, Linux Shell, PowerShell
+            Android Studio, Postman
           </li>
         </ul>
       </div>
