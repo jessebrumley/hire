@@ -6,6 +6,49 @@ export default function Projects() {
       <div className="max-w-4xl mx-auto bg-white border shadow-md rounded-2xl p-6 text-black">
         <h2 className="text-2xl font-bold mb-4">Projects</h2>
 
+        {/* Split Endz App */}
+        <div className="mb-6">
+          <h3 className="text-lg font-semibold">
+            Split Endz — Salon & Spa Web App – Frontend Developer
+          </h3>
+          <p className="text-sm text-gray-600 mb-1">July 2026</p>
+          <a
+            href="https://github.com/jessebrumley/SplitEndz"
+            className="text-blue-600 underline"
+            target="_blank"
+          >
+            GitHub Repository
+          </a>
+          {" | "}
+          <a
+            href="https://splitendz.netlify.app/"
+            className="text-blue-600 underline"
+            target="_blank"
+          >
+            Demo
+          </a>
+          <ul className="list-disc list-inside mt-2 space-y-1">
+            <li>
+              Engineered a responsive, full-featured web application using
+              React, TypeScript, Vite, and Tailwind CSS, leveraging strict type
+              safety, fast module reloading, and utility-first styling to
+              maximize development efficiency and performance.
+            </li>
+            <li>
+              Built a scalable, modular component architecture with client-side
+              routing via React Router, enabling seamless single-page
+              navigation, clean code separation, and smooth layout transitions
+              without full page reloads.
+            </li>
+            <li>
+              Tailored design systems, UI components, and conversion-focused
+              user flows to directly align with local salon branding, ensuring
+              visual consistency and optimizing the layout to drive client
+              bookings and service inquiries.
+            </li>
+          </ul>
+        </div>
+
         {/* Visitor Check-In App */}
         <div className="mb-6">
           <h3 className="text-lg font-semibold">
@@ -81,20 +124,6 @@ export default function Projects() {
             </li>
           </ul>
         </div>
-
-        {/* The Joy of Coding
-                <div className="mb-6">
-                    <h3 className="text-lg font-semibold">The Joy of Coding – Lead Developer</h3>
-                    <p className="text-sm text-gray-600 mb-1">November 2024</p>
-                    <a href="https://github.com/jessebrumley/atlas-the-joy-of-painting-api" className="text-blue-600 underline" target="_blank">
-                        GitHub Repository
-                    </a>
-                    <ul className="list-disc list-inside mt-2 space-y-1">
-                        <li>Extracted and transformed data from diverse, unformatted sources into structured formats</li>
-                        <li>Developed a performant API supporting flexible querying and sorting of large datasets</li>
-                        <li>Optimized performance and scalability with efficient data handling and processing techniques</li>
-                    </ul>
-                </div> */}
 
         {/* Tasty or Toxic */}
         <div className="mb-6">
