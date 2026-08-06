@@ -24,31 +24,16 @@ export default function Education() {
 
         <ul className="list-disc list-inside mt-2 text-black">
           <li>
-            Completed a full-time immersive program covering computer science
-            fundamentals and modern web development
+            Completed a full-time, in-person immersive program combining classroom 
+            instruction in computer science fundamentals with hands-on, project-based learning.
           </li>
           <li>
-            Built full-stack applications using JavaScript, TypeScript, Python,
-            React, Node.js, and SQL databases
+            Built responsive, full-stack web applications using 
+            React, Node.js, and modern frontend/backend tooling.
           </li>
           <li>
-            Designed and implemented relational database schemas and REST APIs
-          </li>
-          <li>
-            Developed and deployed real-world applications using modern
-            development tools and workflows
-          </li>
-          <li>
-            Worked on collaborative team projects using Git-based version
-            control and task management tools
-          </li>
-          <li>Implemented authentication and secure data handling practices</li>
-          <li>
-            Wrote automated tests using modern JavaScript testing frameworks
-          </li>
-          <li>
-            Practiced agile-style development including feature planning and
-            iterative releases
+            Applied core computer science and software development skills, 
+            including C, C++, Python, and Linux shell.
           </li>
         </ul>
       </div>

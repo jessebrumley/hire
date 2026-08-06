@@ -7,11 +7,34 @@ export default function Experience() {
         <h2 className="text-2xl font-bold mb-6">Experience</h2>
 
         <div className="mb-8">
-          <h3 className="text-lg font-semibold">
-            Cashier / Customer Service Associate
-          </h3>
+          <h3 className="text-lg font-semibold">Medical Scheduler</h3>
 
-          <p className="text-sm italic mb-3">Lowe's Home Improvement | May 2026 — Present</p>
+          <p className="text-sm italic mb-3">
+            RadNet | Tulsa, OK | August 2026 — Present
+          </p>
+
+          <ul className="list-disc ml-6 space-y-2">
+            <li>
+              Scheduled medical procedures and navigated insurance protocols to
+              ensure accurate patient scheduling.
+            </li>
+            <li>
+              Maintained database records and enforced strict compliance with
+              HIPAA and data privacy guidelines.
+            </li>
+            <li>
+              Communicated preparation guidelines and technical requirements
+              clearly to patients, physicians, and clinical staff.
+            </li>
+          </ul>
+        </div>
+
+        <div className="mb-8">
+          <h3 className="text-lg font-semibold">Seasonal Cashier</h3>
+
+          <p className="text-sm italic mb-3">
+            Lowe's Home Improvement | April 2026 — August 2026
+          </p>
 
           <ul className="list-disc ml-6 space-y-2">
             <li>
@@ -40,24 +63,16 @@ export default function Experience() {
 
           <ul className="list-disc ml-6 space-y-2">
             <li>
-              Supported customers with account management, billing inquiries,
-              and service troubleshooting in a high-volume environment.
-            </li>
-            <li>
-              Diagnosed and resolved customer issues using internal systems,
-              workflows, and account data.
+              Diagnosed and resolved customer account, billing, and service
+              issues using systems, workflows, and account data.
             </li>
             <li>
               Navigated multiple software tools and CRM platforms simultaneously
               while maintaining accuracy and data integrity.
             </li>
             <li>
-              Communicated technical and account-related information clearly to
-              non-technical users.
-            </li>
-            <li>
-              Maintained consistent performance in a fast-paced environment
-              requiring multitasking, prioritization, and attention to detail.
+              Communicated technical and account information clearly to
+              non-technical users in a fast-paced environment.
             </li>
           </ul>
         </div>

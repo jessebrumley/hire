@@ -1,5 +1,7 @@
 // src/components/Header.tsx
 
+import ResumeModal from "./ResumeModal";
+
 export default function Header() {
   return (
     <header className="bg-blue-700 text-white py-8">
@@ -10,7 +12,7 @@ export default function Header() {
           Phone
           <a href="tel:+19186954716" className="ml-2 mr-4 hover:underline">
             (918) 695-4716
-          </a>
+          </a><br />
           Github:&nbsp;&nbsp;
           <a
             href="https://github.com/jessebrumley"
@@ -21,6 +23,7 @@ export default function Header() {
             https://github.com/jessebrumley
           </a>
         </p>
+        <ResumeModal />
       </div>
     </header>
   );
